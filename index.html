@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="srcipt.js">
+    <title>Primebar and resturant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    document.querySelector("html").addEventListener("click", () => {
+    alert("Come to prime bar and resturant");
+  });
+</script>
+<style>
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+    .active{
+        background: red;
+    }
+</style>
+<body>
+<ul>
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="ORDER UP.html">Order up</a></li>
+    <li><a href="Contact us.html">Contact us</a></li>
+    <li><a href="Prime bar lounge.html">Prime bar and resturant</a></li>
+</ul>
+    <h3>see how our bussines looks like</h3>
+    <video controls>
+        <source src="VID-20230930-WA0001.mp4"
+        type="video/mp4">
+    </video>
+</body>
+</html>
